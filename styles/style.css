@@ -488,6 +488,7 @@ section > p {
   margin-top: auto;
   padding-top: 6px;
 }
+
 #education {
   margin-top: 80px;
   text-align: center;
@@ -510,7 +511,6 @@ section > p {
 .edu-grid {
   width: 100%;
   margin: 0 auto;
-  padding: 20px;
   display: grid;
   grid-template-columns: 1fr;
   gap: 30px;
@@ -518,20 +518,22 @@ section > p {
 
 .edu-card {
   display: grid;
-  grid-template-columns: 1fr auto;
-  gap: 20px;
+  grid-template-columns: 1fr 2fr;
+  gap: 30px;
   background-color: var(--full-white-color);
   border-radius: 12px;
   padding: 24px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
   text-align: left;
   align-items: center;
+  min-height: 300px;
 }
 
 .edu-card__content {
   display: flex;
   flex-direction: column;
-  gap: 6px;
+  gap: 16px;
+  width: 100%;
 }
 
 .edu-card__level {
@@ -594,8 +596,9 @@ section > p {
 
 .edu-card__sidebar {
   display: flex;
+  align-self: stretch;
   align-items: center;
-  justify-content: flex-end;
+  justify-content: center;
   padding-left: 20px;
   border-left: 1px solid rgba(0, 0, 0, 0.08);
   min-width: 140px;
@@ -624,6 +627,15 @@ section > p {
 .edu-tag--purple {
   background-color: #f0eafc;
   color: #7c3aed;
+}
+
+.edu-card__description {
+  font-family: var(--primary-font);
+  font-size: 0.95rem;
+  line-height: 1.8;
+  color: var(--gray-primary-color);
+  margin: 8px 0 0;
+  max-width: 65ch;
 }
 
 body.dark .edu-card__sidebar {
