@@ -940,31 +940,33 @@ body.dark .contact-icon {
 		height: 100%;
 		padding: 0;
 		align-items: center;
-		gap: 14px;
+		gap: 20px;
 	}
 
 	.dark-mode-wrapper {
 		display: flex;
 		align-items: center;
 		justify-content: center;
-		margin: 0 10px;
-		height: 100%;
+		margin: 0 10px 0 0;
+		width: 30px;
+		aspect-ratio: 1 / 1;
 	}
 
 	.icons-wrapper {
 		display: flex;
-		width: 70%;
+		width: 85%;
 		flex-direction: row;
 		align-items: center;
 		justify-content: space-between;
+		gap: 10px;
 		flex-grow: 1;
 		height: 100%;
-		margin: 0 10px;
+		margin-left: 10px;
 	}
 
 	.icons-wrapper a {
 		width: 30px;
-		height: 30px;
+		aspect-ratio: 1 / 1;
 	}
 
 	main {
