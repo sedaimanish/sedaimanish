@@ -37,21 +37,21 @@ export const techStack = [
 	{
 		id: 100,
 		type: "Frontend",
-		image: "",
+		image: "/assets/frontend-icon.svg",
 		skills: ["HTML5", "CSS3", "Javascript (ES6+)", "React.js"],
 	},
 
 	{
 		id: 101,
 		type: "Tools & Platforms",
-		image: "",
+		image: "/assets/tools-icon.svg",
 		skills: ["Git", "VS Code"],
 	},
 
 	{
 		id: 103,
 		type: "Currently Learning",
-		image: "",
+		image: "/assets/study-icon.svg",
 		skills: ["React Ecosystem", "Tailwind CSS", "Node,js", "Next.js"],
 	},
 ];
