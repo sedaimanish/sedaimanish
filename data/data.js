@@ -2,7 +2,7 @@ export const projects = [
 	{
 		id: 1,
 		name: "React Calculator",
-		Image: "",
+		image: "/assets/projects/calculator.png",
 		paragraph:
 			"A simple calculator built with React that handles basic math operations with a clean interface.",
 		techUsed: ["HTML", "CSS", "React"],
@@ -13,7 +13,7 @@ export const projects = [
 	{
 		id: 2,
 		name: "React Todo List",
-		Image: "",
+		image: "/assets/projects/todo.png",
 		paragraph:
 			"A task manager where you can add, complete, and delete tasks to stay organized throughout your day.",
 		techUsed: ["HTML", "CSS", "React"],
@@ -24,7 +24,7 @@ export const projects = [
 	{
 		id: 3,
 		name: "Rock Paper Scissor",
-		Image: "",
+		image: "/assets/projects/rps.png",
 		paragraph:
 			"A classic game in vanilla JavaScript where you play against the computer and track your score in real time.",
 		techUsed: ["HTML", "CSS", "JavaScript"],
