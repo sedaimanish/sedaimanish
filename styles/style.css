@@ -894,6 +894,7 @@ body.dark .contact-icon {
 @media (max-width: 768px) {
 	body {
 		flex-direction: column;
+		margin-top: 80px;
 	}
 
 	.left {
@@ -916,7 +917,54 @@ body.dark .contact-icon {
 	}
 
 	.right {
-		display: none;
+		display: flex;
+		height: 80px;
+		width: 100%;
+		position: fixed;
+		top: 0;
+		left: 0;
+		backdrop-filter: blur(10px);
+		background-color: rgba(from var(--full-white-color) r g b / 0.8);
+		z-index: 100;
+	}
+
+	.right img {
+		width: 18px;
+		aspect-ratio: 1 / 1;
+	}
+
+	.sidebar {
+		display: flex;
+		flex-direction: row-reverse;
+		width: 100%;
+		height: 100%;
+		padding: 0;
+		align-items: center;
+		gap: 14px;
+	}
+
+	.dark-mode-wrapper {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		margin: 0 10px;
+		height: 100%;
+	}
+
+	.icons-wrapper {
+		display: flex;
+		width: 70%;
+		flex-direction: row;
+		align-items: center;
+		justify-content: space-between;
+		flex-grow: 1;
+		height: 100%;
+		margin: 0 10px;
+	}
+
+	.icons-wrapper a {
+		width: 30px;
+		height: 30px;
 	}
 
 	main {
