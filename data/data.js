@@ -6,8 +6,8 @@ export const projects = [
 		paragraph:
 			"A simple calculator built with React that handles basic math operations with a clean interface.",
 		techUsed: ["HTML", "CSS", "React"],
-		viewCode: "",
-		liveDemo: "",
+		viewCode: "https://github.com/sedaimanish/calculator",
+		liveDemo: "https://calculator-sedaimanish.vercel.app/",
 	},
 
 	{
@@ -17,8 +17,8 @@ export const projects = [
 		paragraph:
 			"A task manager where you can add, complete, and delete tasks to stay organized throughout your day.",
 		techUsed: ["HTML", "CSS", "React"],
-		viewCode: "",
-		liveDemo: "",
+		viewCode: "https://github.com/sedaimanish/TodoApp",
+		liveDemo: "https://todo-sedaimanish.vercel.app/",
 	},
 
 	{
@@ -28,8 +28,8 @@ export const projects = [
 		paragraph:
 			"A classic game in vanilla JavaScript where you play against the computer and track your score in real time.",
 		techUsed: ["HTML", "CSS", "JavaScript"],
-		viewCode: "",
-		liveDemo: "",
+		viewCode: "https://github.com/sedaimanish/Rock-Paper-Scissor",
+		liveDemo: "https://rps-sedaimanish.vercel.app/",
 	},
 ];
 
