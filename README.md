@@ -1,4 +1,4 @@
-# 💫 About Me:
+## 💫 About Me:
 IT student in Kyoto, Japan.<br><br>Learning HTML, CSS, JavaScript, React, and Git. Sharing my projects and coding journey here.<br>
 
 
